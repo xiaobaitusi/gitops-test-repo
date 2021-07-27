@@ -6,3 +6,15 @@ metadata:
   annotations:
     cnrm.cloud.google.com/project-id: zeya-explorer    
   name: pubsubtopic-sample
+spec:
+messageStoragePolicy:
+  allowedPersistenceRegions:
+    - us-central1
+    - us-central2
+    - us-east1
+    - us-east4
+    - us-west1
+    - us-west2
+    - us-west3
+    - us-west4
+  
